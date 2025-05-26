@@ -1,0 +1,180 @@
+[
+  {
+    "id": "1",
+    "name": "TechNova Solutions",
+    "logo": "https://technova.com/wp-content/uploads/2025/05/logo2-300x300.jpg",
+    "location": "San Francisco, CA",
+    "website": "https://www.my.com",
+    "industry": "Software Development",
+    "jobs": [
+      {
+        "id": "job-001",
+        "title": "Frontend Developer",
+        "bannerImage": "https://technova.com/wp-content/uploads/2022/07/hiking-instagram-captions-735x919.jpg-600x750.webp",
+        "location": "Remote",
+        "salary": "$80,000 - $100,000",
+        "jobType": "Full-time",
+        "description": "Build and maintain responsive UI components using React.",
+        "requirements": [
+          "Proficient in HTML, CSS, and JavaScript",
+          "Experience with React or Vue.js",
+          "Familiarity with RESTful APIs",
+          "Good understanding of responsive design",
+          "Excellent problem-solving skills"
+        ]
+      },
+      {
+        "id": "job-002",
+        "title": "Backend Developer",
+        "bannerImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT-SdwZiPuHzaNROCajbQ-fmUz90Up7gp8iHQ&s",
+        "location": "San Francisco, CA",
+        "salary": "$90,000 - $110,000",
+        "jobType": "Full-time",
+        "description": "Design and implement backend services and APIs using Node.js.",
+        "requirements": [
+          "Strong knowledge of Node.js and Express",
+          "Experience with databases (MongoDB, PostgreSQL)",
+          "Knowledge of authentication and security practices",
+          "Familiarity with Docker and CI/CD",
+          "Ability to work in an Agile environment"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "2",
+    "name": "HealthSync Inc.",
+    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSJfPmBSct8LFTC4P9bUWi74c_eGZukcg9YTQ&s",
+    "location": "New York, NY",
+    "website": "https://www.my.com",
+    "industry": "Healthcare Technology",
+    "jobs": [
+      {
+        "id": "job-003",
+        "title": "UI/UX Designer",
+        "bannerImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQhU8iFY27tzKLGCMWhOiSNhT71rSHz955IAA&s",
+        "location": "New York, NY",
+        "salary": "$70,000 - $90,000",
+        "jobType": "Full-time",
+        "description": "Design intuitive and user-friendly interfaces for our web and mobile apps.",
+        "requirements": [
+          "Experience with Figma, Adobe XD, or Sketch",
+          "Strong portfolio of UI/UX work",
+          "Understanding of user-centered design",
+          "Ability to conduct user research",
+          "Collaboration skills with developers and stakeholders"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "3",
+    "name": "EcoWare Labs",
+    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT9W8JiXPkasLkCMgb25qgE1m1aw7j2OanFNQ&s",
+    "location": "Austin, TX",
+    "website": "https://www.my.com",
+    "industry": "Green Technology",
+    "jobs": [
+      {
+        "id": "job-004",
+        "title": "Full Stack Developer",
+        "bannerImage": "https://miro.medium.com/v2/resize:fit:1200/1*V-Jp13LvtVc2IiY2fp4qYw.jpeg",
+        "location": "Hybrid - Austin, TX",
+        "salary": "$85,000 - $105,000",
+        "jobType": "Full-time",
+        "description": "Work across the stack to build scalable web applications for environmental data tracking.",
+        "requirements": [
+          "Proficiency in JavaScript and TypeScript",
+          "Experience with React and Node.js",
+          "Familiar with GraphQL and REST APIs",
+          "Experience with cloud platforms like AWS or GCP",
+          "Commitment to sustainable software practices"
+        ]
+      },
+      {
+        "id": "job-005",
+        "title": "Data Analyst",
+        "bannerImage": "https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fi%2F5ct9nhbw6gdpb8dh0yy1.png",
+        "location": "Austin, TX",
+        "salary": "$70,000 - $85,000",
+        "jobType": "Full-time",
+        "description": "Analyze and interpret environmental data to generate actionable insights.",
+        "requirements": [
+          "Strong skills in SQL and Python",
+          "Experience with data visualization tools like Tableau or Power BI",
+          "Understanding of environmental data models",
+          "Attention to detail and analytical mindset",
+          "Ability to communicate findings to non-technical stakeholders"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "4",
+    "name": "BrightFinance",
+    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRqN59JkhUzdjbv23ij7Qlvhf944JxrJl4qWw&s",
+    "location": "Chicago, IL",
+    "website": "https://www.my.com",
+    "industry": "Fintech",
+    "jobs": [
+      {
+        "id": "job-006",
+        "title": "Financial Analyst",
+        "bannerImage": "https://i.ytimg.com/vi/lq_SGHeaNQA/hqdefault.jpg",
+        "location": "Chicago, IL",
+        "salary": "$75,000 - $95,000",
+        "jobType": "Full-time",
+        "description": "Support financial planning and strategic analysis for fintech operations.",
+        "requirements": [
+          "Bachelor’s in Finance, Economics or related field",
+          "Strong Excel and financial modeling skills",
+          "Experience with budgeting tools",
+          "Analytical thinking and attention to detail",
+          "Experience in a fast-paced tech company is a plus"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "5",
+    "name": "EduCore Learning",
+    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQNIGCa_nxFxAQPfd62tTwMKVZerlR3LW85hg7fHrdFWzStfP7K0lytCliG-4hLfLPwCGo&usqp=CAU",
+    "location": "Remote",
+    "website": "https://www.my.com",
+    "industry": "EdTech",
+    "jobs": [
+      {
+        "id": "job-007",
+        "title": "Content Strategist",
+        "bannerImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSGrcm_S5zxSjrZ02xc9Vfdu4kXivX4wGEXFA&s",
+        "location": "Remote",
+        "salary": "$60,000 - $80,000",
+        "jobType": "Full-time",
+        "description": "Plan and manage engaging educational content across platforms.",
+        "requirements": [
+          "Experience in educational content creation",
+          "Excellent writing and editorial skills",
+          "Understanding of curriculum design",
+          "SEO knowledge is a plus",
+          "Ability to manage multiple projects"
+        ]
+      },
+      {
+        "id": "job-008",
+        "title": "Learning Management System (LMS) Administrator",
+        "bannerImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRIiN24GHnc7njlz1CD3l2zjxCSBy7JkRWhGA&s",
+        "location": "Remote",
+        "salary": "$65,000 - $85,000",
+        "jobType": "Full-time",
+        "description": "Maintain and improve our online learning platform using Moodle.",
+        "requirements": [
+          "Experience with Moodle or similar LMS platforms",
+          "Technical support and troubleshooting skills",
+          "Understanding of SCORM and eLearning standards",
+          "Familiarity with HTML/CSS",
+          "Strong communication skills"
+        ]
+      }
+    ]
+  }
+]
