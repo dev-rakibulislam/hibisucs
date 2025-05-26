@@ -59,8 +59,10 @@ const Header = () => {
     <nav className="bg-white shadow-md text-gray-800 py-2">
       <div className="max-w-7xl mx-auto px-4 flex justify-between items-center">
     
-        <Link to="/" className="text-2xl uppercase font-bold text-blue-600">
-          Job Track
+        <Link to="/" className="text-2xl flex items-center uppercase font-bold text-blue-600">
+          <img className="w-16 h-16 object-cover" src="https://cdn.vectorstock.com/i/500p/74/45/job-portal-lettering-logo-design-template-concept-vector-37017445.jpg" alt="" />
+          
+            Job Track
         </Link>
 
         <div className="hidden md:flex items-center gap-6">
