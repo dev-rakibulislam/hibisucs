@@ -7,6 +7,7 @@ import Profile from "../Private/Profile";
 import IsPrivate from "../Private/IsPrivate";
 import Home from "../Components/Home";
 import CompanieDetails from "../Private/CompanieDetails";
+import Loading from "../Components/loading";
 
 export const router = createBrowserRouter([
   {
@@ -15,13 +16,13 @@ export const router = createBrowserRouter([
     children: [
       {
         index: true,
-        hydrateFallbackElement: <h1>d</h1>,
+        HydrateFallback: <Loading />,
         loader: () => fetch('/Compani.json'),
         Component: Home
       },
       {
         path: '/Company-Details/:id',
-        hydrateFallbackElement: <h1>d</h1>,
+        HydrateFallback: <Loading />,
         loader: () => fetch(`/Compani.json`),
         element: <IsPrivate><CompanieDetails /></IsPrivate>
       },

@@ -2,6 +2,7 @@ import React, { useContext, useEffect, useState } from 'react';
 import { Navigate } from 'react-router';
 import Swal from 'sweetalert2';
 import { UserContext } from '../Context/UserContext';
+import Loading from '../Components/loading';
 
 const IsPrivate = ({ children }) => {
   const { loginUser, loading } = useContext(UserContext)
@@ -25,7 +26,7 @@ const IsPrivate = ({ children }) => {
     }
   }, [loginUser, loading]);
   if (loading) {
-    return <span className='text-xl '>hi iam loading</span>
+    return <Loading />
   }
   if (!loginUser && isRedirect) {
     return <Navigate to='/signin'></Navigate >
