@@ -4,22 +4,25 @@ Job Track is an innovative and user-friendly website designed to help job seeker
 
 
 
-## Deployment
+## Which i use
 
-To deploy this project run
 
 ```
-  npm run deploy
+
+✔ react 
+✔ react-router
+✔ firebase
+✔ daisyui
+✔ tailwindcss
+✔ sweet alert
+✔ react-toastify
+
 ```
 
 
 
 
-## Environment Variables
+## link
 
-To run this project, you will need to add the following environment variables to your .env file
 
-`API_KEY`
-
-`ANOTHER_API_KEY`
 
