@@ -5,6 +5,8 @@ import { ToastContainer } from 'react-toastify'
 import Footer from './Components/Footer'
 
 function App() {
+  document.title = 'Job Portal website'
+
   return (
     <>
       <Header />

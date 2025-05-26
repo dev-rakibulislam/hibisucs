@@ -5,7 +5,7 @@ const CompanieDetails = () => {
   const { id } = useParams();
   const allCompanies = useLoaderData();
   const company = allCompanies.find((c) => c.id === id);
-
+  document.title = `Job Portal website | ${company.name}`
   const [selectedJob, setSelectedJob] = useState(null);
   const nabi = useNavigate()
   if (!company) {
@@ -13,7 +13,7 @@ const CompanieDetails = () => {
   }
   return (
     <section className="max-w-6xl mx-auto px-4 py-16 relative">
-        <button className='btn btn-dash btn-accent absolute top-4' onClick={()=>{nabi(-1)}}>↖ Go Back</button>
+      <button className='btn btn-dash btn-accent absolute top-4' onClick={() => { nabi(-1) }}>↖ Go Back</button>
       <div className="bg-white shadow p-6 rounded-lg mb-12">
         <div className="flex items-center gap-6">
           <img src={company.logo} alt={company.name} className="w-20 h-20 object-contain" />

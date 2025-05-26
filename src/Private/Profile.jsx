@@ -7,7 +7,7 @@ import { toast } from "react-toastify";
 const Profile = () => {
   const { loginUser } = useContext(UserContext)
   const [message, setMessage] = useState("");
-
+  document.title='Job Portal website | profile'
   const handleSubmit = async (e) => {
     e.preventDefault();
     const f = e.target;
