@@ -16,13 +16,13 @@ export const router = createBrowserRouter([
     children: [
       {
         index: true,
-        HydrateFallback: <Loading />,
+        HydrateFallback: Loading ,
         loader: () => fetch('/Compani.json'),
         Component: Home
       },
       {
         path: '/Company-Details/:id',
-        HydrateFallback: <Loading />,
+        HydrateFallback: Loading ,
         loader: () => fetch(`/Compani.json`),
         element: <IsPrivate><CompanieDetails /></IsPrivate>
       },
